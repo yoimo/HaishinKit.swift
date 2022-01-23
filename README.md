@@ -16,6 +16,12 @@
 Enterprise Grade APIs for Feeds & Chat. <a href="https://getstream.io/tutorials/ios-chat/?utm_source=github.com/shogo4405/HaishinKit.swift&utm_medium=github&utm_campaign=oss_sponsorship" target="_blank">Try the iOS Chat tutorial</a> 💬
 </p>
 
+## Looking for a job?
+|<br />|<br />|<br />|
+|:-:|:-:|:-:|
+|iOS Mobile App developer at XXXX|The recruitment of iOS Engineer at XXXXXX|The recruitment of Senior Video Streaming Engineer at XXXXXX.|
+|iOSのエンジニア募集しています 株式会社XXXX|ライブストリーミングエンジニア募集 at XXXXXX|ビデオストリーミングに強いエンジニアを募集 at XXXXXX.|
+
 ## Communication
 * If you need help with making LiveStreaming requests using HaishinKit, use a GitHub issue with **Bug report template**
   - The trace level log is very useful. Please set `Logboard.with(HaishinKitIdentifier).level = .trace`. 
