@@ -416,7 +416,6 @@ extension AVVideoIOUnit {
                 }
                 context?.render(image, to: imageBuffer ?? buffer)
             }
-            renderer?.enqueue(sampleBuffer)
         }
 
         encoder.encodeImageBuffer(
@@ -448,6 +447,7 @@ extension AVVideoIOUnit: AVCaptureVideoDataOutputSampleBufferDelegate {
             sampleBuffer.reflectHorizontal()
         }
         #endif
+        renderer?.enqueue(sampleBuffer)
         encodeSampleBuffer(sampleBuffer)
     }
 }
